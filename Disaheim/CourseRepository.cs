@@ -9,7 +9,7 @@ namespace Disaheim
     public class CourseRepository
     {
         private List<Course> Courses = new List<Course>();
-        public UtilityTwo uc = new UtilityTwo();
+        public Utility uc = new Utility();
 
         public void AddCourse(Course course)
         {

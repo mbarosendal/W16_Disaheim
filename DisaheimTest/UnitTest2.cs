@@ -10,7 +10,7 @@ namespace DisaheimTest
         Amulet a1, a2, a3;
         Course c1, c2, c3;
 
-        UtilityTwo utility;
+        Utility utility;
 
         [TestInitialize]
         public void Init()
@@ -30,7 +30,7 @@ namespace DisaheimTest
             c2 = new Course("Magi – når videnskaben stopper", 157);
             c3 = new Course("Et indblik i Helleristning", 180);
 
-            utility = new UtilityTwo();
+            utility = new Utility();
         }
 
         [TestMethod]

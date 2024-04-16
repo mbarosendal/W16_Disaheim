@@ -9,7 +9,7 @@ namespace Disaheim
     public class BookRepository
     {
         private List<Book> Books = new List<Book>();
-        UtilityTwo uc = new UtilityTwo();
+        Utility uc = new Utility();
 
         public void AddBook(Book book)
         {

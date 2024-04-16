@@ -22,7 +22,7 @@ namespace DisaheimTest
             b2 = new Book("2", "Falling in Love with Yourself");
             b3 = new Book("3", "Spirits in the Night", 123.55);
 
-            // Quality ændret til MEDIUM i a1, fordi min enums standardværdi er LOW
+            // Quality ændret til MEDIUM i a1, fordi min enums standardværdi er LOW.
             a1 = new Amulet("11", Level.medium);
             a2 = new Amulet("12", Level.high);
             a3 = new Amulet("13", Level.low, "Capricorn");

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Disaheim
 {
-    public class UtilityTwo
+    public class Utility
     {
         public double GetValueOfBook(Book book)
         {

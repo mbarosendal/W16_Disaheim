@@ -10,7 +10,7 @@ namespace Disaheim
     public class AmuletRepository
     {
         private List<Amulet> Amulets = new List<Amulet>();
-        UtilityTwo uc = new UtilityTwo();
+        Utility uc = new Utility();
 
         public void AddAmulet(Amulet amulet)
         {
