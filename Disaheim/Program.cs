@@ -26,6 +26,8 @@ namespace Disaheim
             //    Console.WriteLine("The book is not here!");
             //}
 
+            // YOU'RE AT EXERCISE 7 !
+
         }
     }
 }

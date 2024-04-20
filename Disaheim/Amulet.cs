@@ -1,15 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Disaheim
+﻿namespace Disaheim
 {
+    public enum Level
+    {
+        low,
+        medium,
+        high
+    }
+
     public class Amulet : Merchandise
     {
         private string _design;
         private Level _quality;
+        public static double LowQualityValue = 12.5;
+        public static double MediumQualityValue = 20.0;
+        public static double HighQualityValue = 27.5;
 
         public string Design
         {
@@ -42,6 +46,28 @@ namespace Disaheim
             ItemId = itemId; // Accessing ItemId property from Merchandise class
             Quality = quality;
             Design = design;
+        }
+
+        public override double GetValue()
+        {
+            double value = 0.0;
+
+            switch (this.Quality)
+            {
+                case Level.low:
+                    value = 12.5;
+                    break;
+                case Level.medium:
+                    value = 20.0;
+                    break;
+                case Level.high:
+                    value = 27.5;
+                    break;
+                default:
+                    Console.WriteLine("Invalid quality specified for the amulet.");
+                    break;
+            }
+            return value;
         }
 
         public virtual string ToString()

@@ -8,30 +8,37 @@ namespace Disaheim
 {
     public class Controller
     {
-        public List<Amulet> Amulets;
-        public List<Course> Courses;
-        public List<Book> Books;
+        public ValuableRepository ValuableRepo;
 
-        public void AddToList(Book book)
+        public void AddToList(IValuable valuable)
         {
-            Books.Add(book);
+
         }
 
-        public void AddToList(Amulet amulet)
-        {
-            Amulets.Add(amulet);
-        }
+        //public List<Amulet> Amulets;
+        //public List<Course> Courses;
+        //public List<Book> Books;
 
-        public void AddToList(Course course)
-        {
-            Courses.Add(course);
-        }
+        //public void AddToList(Book book)
+        //{
+        //    Books.Add(book);
+        //}
+
+        //public void AddToList(Amulet amulet)
+        //{
+        //    Amulets.Add(amulet);
+        //}
+
+        //public void AddToList(Course course)
+        //{
+        //    Courses.Add(course);
+        //}
 
         public Controller()
         {
-            Books = new List<Book>();
-            Amulets = new List<Amulet>();
-            Courses = new List<Course>();
+            //Books = new List<Book>();
+            //Amulets = new List<Amulet>();
+            //Courses = new List<Course>();
         }
     }
 }
