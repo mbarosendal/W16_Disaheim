@@ -66,7 +66,7 @@
             }
         }
 
-        public void Save(string fileName)
+        public void Save(string fileName /*= "ValuableRepostory.txt"*/)
         {
             string currentDirectory = Directory.GetCurrentDirectory();
             string fullPath = Path.Combine(currentDirectory, fileName);

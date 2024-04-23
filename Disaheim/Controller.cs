@@ -14,6 +14,12 @@ namespace Disaheim
         {
 
         }
+        public Controller()
+        {
+            //Books = new List<Book>();
+            //Amulets = new List<Amulet>();
+            //Courses = new List<Course>();
+        }
 
         //public List<Amulet> Amulets;
         //public List<Course> Courses;
@@ -33,12 +39,5 @@ namespace Disaheim
         //{
         //    Courses.Add(course);
         //}
-
-        public Controller()
-        {
-            //Books = new List<Book>();
-            //Amulets = new List<Amulet>();
-            //Courses = new List<Course>();
-        }
     }
 }
